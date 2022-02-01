@@ -1,0 +1,20 @@
+{
+  "name": "udemy-css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDpendencies": {
+    "node-sass": "^7.0.1"
+  },
+  "dependencies": {
+    "jquery": "^3.6.0"
+  },
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
