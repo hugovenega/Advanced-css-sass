@@ -41,6 +41,7 @@
 }
 
 .detail{
+  font-size:1.4rem ;
   display: flex;
   padding: 4.5rem;
   background-color: var(--grey-light-2);
@@ -51,13 +52,12 @@
   background-color: white;
   flex: 0 0 60%;
   margin-right: 5rem;
-  box-shadow: 0 2rem 5rem rgba(#000000, .06);
   padding: 3rem;
-  font-size:1.4rem ;
+  box-shadow: var(--shadow-dark);
+  
 }
 
 .user-review{
-  background-color: aquamarine;
 
   flex: 1;
 
