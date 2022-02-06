@@ -42,8 +42,5 @@ body {
       [col-start] minmax(min-content, 14rem) [col-end]
     ) [center-end] minmax(6rem, 1fr) [full-end]; // minmax = max 14rem pero puede ser menor pero jamás menor que el contenido minimo
 
-  & > * {
-    padding: 4rem;
-    font-size: 3rem;
-  }
+  
 }
