@@ -1,0 +1,5 @@
+.sidebar {
+  background-color: $color-primary;
+  grid-column: sidebar-start / sidebar-end; // donde comienza y termina la columna del objeto
+  grid-row: 1 / -1; // donde comienza y termina la fila del objeto, con -1 de inicio a fin no importa la cantidad de filas
+}
