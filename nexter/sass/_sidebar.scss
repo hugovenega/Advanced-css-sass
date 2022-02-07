@@ -2,4 +2,33 @@
   background-color: $color-primary;
   grid-column: sidebar-start / sidebar-end; // donde comienza y termina la columna del objeto
   grid-row: 1 / -1; // donde comienza y termina la fila del objeto, con -1 de inicio a fin no importa la cantidad de filas
+  display: flex;
+  justify-content: center;
+}
+
+.nav-btn {
+  border: none;
+  border-radius: 0;
+
+
+  background-color: white;
+  height: 2px;
+  width: 4.5rem;
+  margin-top: 4rem;
+  &::before,
+  &::after{
+    background-color: white;
+    height: 2px;
+    width: 4.5rem;
+    content: "";
+    display: block;
+  }
+
+  &::before {
+    transform: translateY(-1.5rem);
+  }
+
+  &::after {
+    transform: translateY(1.5rem);
+  }
 }
